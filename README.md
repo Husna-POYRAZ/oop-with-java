@@ -1,5 +1,5 @@
 # Object-Oriented Programming Concepts
-1. Real-world objects contain <b>state</> and <b>behavior</b>.
+1. Real-world objects contain <b>state</b> and <b>behavior</b>.
 2. A software object's state is stored in <b>fields</b>.
 3. A software object's behavior is exposed through <b>methods</b>.
 4. Hiding internal data from the outside world, and accessing it only through publicly exposed methods is known as data <b>encapsulation</b>.
