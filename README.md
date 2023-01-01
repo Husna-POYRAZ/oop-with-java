@@ -47,3 +47,22 @@ b. <b>Question:</b> What are the final values of i and n if instead of using the
  1 * 2 * 3
 5. Statements are roughly equivalent to sentences in natural languages, but instead of ending with a period, a statement ends with a <b>semicolon</b>
 6. A block is a group of zero or more statements between balanced <b>braces</b> and can be used anywhere a single statement is allowed.
+
+## Control Flow Statements
+1. The most basic control flow statement supported by the Java programming language is the <b>if-then</b> statement.
+2. The <b>switch</b> statement allows for any number of possible execution paths.
+3. The do-while statement is similar to the while statement, but evaluates its expression at the <b>bottom</b> of the loop.
+4. <b>Question:</b> How do you write an infinite loop using the <b>for</b> statement?
+<b>Answer:</b><br>
+```
+for ( ; ; ) {
+
+}
+```
+5. <b>Question:</b> How do you write an infinite loop using the <b>while</b> statement?
+<b>Answer:</b>
+```
+while (true) {
+
+}
+```
