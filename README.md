@@ -38,3 +38,12 @@ b. <b>Question:</b> What are the final values of i and n if instead of using the
 <b>Answer:</b> The == operator is used for comparison, and = is used for assignment.<br><br>
 5. <b>Question:</b> Explain the following code sample: result = someCondition ? value1 : value2;<br>
 <b>Answer:</b> This code should be read as: "If someCondition is true, assign the value of value1 to result. Otherwise, assign the value of value2 to result."
+
+## Expressions, Statements, and Blocks
+1. Operators may be used in building <b>expressions</b>, which compute values.
+2. Expressions are the core components of <b>statements</b>.
+3. Statements may be grouped into <b>blocks</b>.
+4. The following code snippet is an example of a <b>compound</b> expression.
+ 1 * 2 * 3
+5. Statements are roughly equivalent to sentences in natural languages, but instead of ending with a period, a statement ends with a <b>semicolon</b>
+6. A block is a group of zero or more statements between balanced <b>braces</b> and can be used anywhere a single statement is allowed.
