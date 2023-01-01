@@ -66,3 +66,45 @@ while (true) {
 
 }
 ```
+
+# Classes and Objects
+## Classes
+### Answers to Questions
+1. Consider the following class:
+```
+public class IdentifyMyParts {
+    public static int x = 7;
+    public int y = 3;
+} 
+```
+<b>a. Question:</b> What are the class variables?
+
+<b>Answer:</b> x
+
+<b>b. Question:</b> What are the instance variables?
+
+<b>Answer:</b> y
+
+<b>c. Question:</b> What is the output from the following code:
+```
+IdentifyMyParts a = new IdentifyMyParts(); 
+IdentifyMyParts b = new IdentifyMyParts(); 
+a.y = 5; 
+b.y = 6; 
+a.x = 1; 
+b.x = 2; 
+System.out.println("a.y = " + a.y); 
+System.out.println("b.y = " + b.y); 
+System.out.println("a.x = " + a.x); 
+System.out.println("b.x = " + b.x); 
+System.out.println("IdentifyMyParts.x = " + IdentifyMyParts.x);
+```
+<b>Answer:</b> Here is the output:<br>
+ a.y = 5<br> 
+ b.y = 6<br> 
+ a.x = 2<br> 
+ b.x = 2<br>
+ IdentifyMyParts.x = 2<br><br>
+ 
+Because x is defined as a public static int in the class IdentifyMyParts, every reference to x will have the value that was last assigned because x is a static variable (and therefore a class variable) shared across all instances of the class. That is, there is only one x: when the value of x changes in any instance it affects the value of x for all instances of IdentifyMyParts.
+
